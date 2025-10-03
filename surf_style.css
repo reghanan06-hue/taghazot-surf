@@ -485,15 +485,15 @@ margin-left:23px;
 	width:100%;
 	height:90px;
 	padding-top:50px;
-    border: 1px solid #cccccc;
+    border: 4px solid white;
     border-radius:9px;
 
 }
 
 
 #change_col{
-	color:#08C2FF;
+	color:white;
 	   text-decoration: underline;
-font-size:20px;
+   font-size:30px;
 }
 
