@@ -1,0 +1,499 @@
+body {
+   background-color:#0BA6DF;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 16px;
+  
+
+}
+
+.header-content{
+
+    height: 100px;
+	background-color:#E9E3DF;
+	color:#4DA8DA;
+	font-size:9px;
+	display:flex;
+    justify-content:space-around;
+	border-radius:10px;	
+	box-shadow: 0px 10px 10px #EBEBEB;
+	
+}
+
+.logo{ 
+   width: 80px;
+   height: 80px;
+   margin-Top:10px;
+   border-radius:10px;	
+   box-shadow: 0px 5px 10px #60B5FF;}
+  
+ #time_activity{
+	    color:black;
+	    margin-Top:30px;
+		font-size:30px;
+
+	
+  }
+  
+  #title_web{
+	  font-size:30px;
+	  margin-Top:30px;
+
+  }
+  
+  #imag_list1{
+	    margin:20px;
+	    width: 380px;
+		height:300px;
+		 border-radius:10px;	 }
+		 
+  .list_image{
+	  display:flex;
+	  align-items:center;
+	  flex-direction:row;
+	  margin-top:20px;
+justify-content:space-around;
+  }
+  
+
+  
+  .naviger{
+	  
+	 margin-top:30px;
+	 display :flex;
+	 justify-content:space-around;
+	 color:white;
+     text-decoration: none;
+	  
+  }
+  .nav-link{
+	  color:white;
+	  margin:30px;
+	  padding:20px;
+  }
+  
+ .nav-link:hover {
+  color: #637AB9;
+
+}
+
+.nav-link:active {
+  color: red;
+
+}
+.hero{
+	
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: #f7f7f7;
+  border-radius:20px;	
+   margin-bottom:5px;
+}
+
+.hero h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #3498db;
+ 
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+ 
+}
+.ÀPropos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color:white;
+  border-radius:20px;	
+  margin-bottom:5px;
+
+
+}
+
+.ÀPropos h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #3498db;
+}
+
+.ÀPropos p {
+  font-size: 18px;
+  margin-bottom: 20px;
+ 
+}
+
+.ÀPropos img {
+  width: 500px;
+  height:400px;
+
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.Localisation{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color:white;
+  border-radius:20px;
+  margin-bottom:5px;
+
+	
+}
+
+
+.Localisation p {
+	
+  font-size: 18px;
+  margin-bottom: 20px;
+  
+}
+.Localisation h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #3498db;
+}
+  .presentition_plage {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content :space-around;
+  margin-bottom:10px;}
+  
+  .presentition_plage img {
+  width: 400px;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #BBF2EC;
+  margin:20px;
+  }
+
+.Meteo{
+
+ 
+  padding: 40px;
+  background-color: #4CC9FE;
+  border-radius:20px;
+  margin-bottom:5px;
+
+	
+}
+.Meteo h3 {
+  text-align:center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #EBEBEB;
+}
+.global_div_temp{
+	  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content :space-around;
+	
+}
+.temperature{
+	  display: flex;
+  flex-direction: column;
+}
+.temperature p{
+color:white;
+}
+
+#myPic_temp{
+	width:150px;
+	height:150px;
+	  border-radius:20px;
+
+}
+
+.temperature p{
+	  font-size: 18px;
+       margin-left:10px;
+}
+.div_vent{
+		  display: flex;
+  flex-direction: column;
+}
+
+#myPic_vent{
+	width:150px;
+	height:150px;
+	  border-radius:20px;
+
+}
+.div_vent p{
+	  font-size: 18px;
+       margin-left:10px;
+	   color:white;
+
+}
+.div_med{
+	  display: flex;
+  flex-direction: column;
+}
+.div_med p{
+	
+	  font-size: 18px;
+       margin-left:10px;
+	   color:white;
+
+}
+#myPic_medi{
+	  border-radius:20px;
+width:150px;
+	height:150px;
+}
+
+.Meteo p{
+	 font-size: 18px;
+	 font-style:bold;
+	 
+}
+  #info_wether{
+	text-align:center;
+  color:#1C6EA4;	
+  }
+
+.Programme{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: #f7f7f7;
+  border-radius:20px;	
+  margin-bottom:5px;
+
+
+}
+.Programme h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #3498db;
+}
+.Programme img{
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px
+}
+
+.principale_Activity{
+   display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content :space-around;
+  margin-bottom:10px;
+	border-bottom:5px solid #A7E399;
+
+}
+
+.first_Activity{
+	display :flex;
+	flex-direction:column;
+	  margin:20px;
+	
+}
+.first_Activity img{
+   width: 300px;
+  height: 300px;
+ 
+  border-radius: 10px;
+  margin:20px;
+
+  
+  
+}
+.first_Activity p{
+	margin:0px;
+color:#A7E399;
+text-align:center;
+font-size:20px;
+font-style:bold;
+
+}
+
+
+.Activity_second{
+	display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content :space-around;
+}
+
+ 
+.Contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: #f7f7f7;
+  border-radius:20px;	
+  margin-bottom:5px;
+
+}
+
+.Contact p {
+	
+  font-size: 18px;
+  margin-bottom: 20px;
+  
+}
+.bttn_envy{
+		display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+}
+ .bttn_envy #bttn_envoyer{
+	margin-Top:10px;
+	width:200px;
+	height:50px;
+	text-align:center;
+	  align-items: center;
+
+	padding:10px;
+	background-color:#0BA6DF;
+	border-radius:10px;
+	border-color :white;
+	color:#F3F2EC;
+	font-size:20px;
+
+ }
+ 
+   #bttn_envoyer:hover{
+	   background-color:red;
+	   
+   }
+   
+   #bttn_envoyer:active{
+	   background-color:gray;
+	   
+   }
+.Contact h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #3498db;
+}
+.contact-form{
+	width:450px;
+	height:520px;
+	border-radius:40px;	
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+
+	background-color:#73C8D2;
+}
+.contact-form h4 {
+	color:white;
+	font-size:30px;
+	decoration:underline;
+	text-align:center;
+	
+}
+
+
+
+.info_name{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  margin-bottom:30px;
+
+  }
+  
+  .info_name label{
+	font-size:20px;
+  }
+  
+.info_name input{
+width:200px;
+height:30px;
+  margin-Top:10px;
+  }
+  
+  
+ 
+  .infor_email{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+
+
+  }
+  
+  .infor_email label{
+	  	font-size:20px;
+
+
+  }
+.infor_email input{
+width:200px;
+height:30px;
+border: 1px solid #cccccc;
+}
+
+.info_msg{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between
+
+
+
+  }
+  
+  .info_msg label{
+	font-size:20px;
+padding:30px;
+margin-Top:50px;
+margin-left:23px;
+
+
+
+  }
+.info_msg textarea{
+  padding: 10px;
+  max-width: 50%;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  box-shadow: 1px 1px 1px #999999;   
+    font-size: 0.8rem;
+  letter-spacing: 1px;
+  margin:20px;
+}
+.barre_menu{
+	display:flex;
+	align-items:center;
+	 justify-content:center;
+}
+ 
+.barre_menu p{	
+   font-size:30px;
+   font-weight: bold;
+   font-family: 'Open Sans', sans-serif;
+
+	text-align:center;
+	color:white;
+	font-size: 16px;
+	background-color:#0D92F4;
+	width:100%;
+	height:90px;
+	padding-top:50px;
+    border: 1px solid #cccccc;
+    border-radius:9px;
+
+}
+
+
+#change_col{
+	color:#08C2FF;
+	   text-decoration: underline;
+font-size:20px;
+}
+
