@@ -8,12 +8,12 @@ body {
 
 .header-content{
 
-    height: 100px;
+  height: 100px;
 	background-color:#E9E3DF;
 	color:#4DA8DA;
 	font-size:9px;
 	display:flex;
-    justify-content:space-around;
+  justify-content:space-around;
 	border-radius:10px;	
 	box-shadow: 0px 10px 10px #EBEBEB;
 	
@@ -160,14 +160,14 @@ justify-content:space-around;
   margin-bottom: 20px;
   color: #3498db;
 }
-  .presentition_plage {
+  .presentation_plage{
   display: flex;
   flex-direction: row;
   align-items:center;
   justify-content :space-around;
   margin-bottom:10px;}
   
-  .presentition_plage img {
+  .presentation_plage img {
   width: 400px;
   max-width: 400px;
   border-radius: 10px;
@@ -199,7 +199,7 @@ justify-content:space-around;
 	
 }
 .temperature{
-	  display: flex;
+	display: flex;
   flex-direction: column;
 }
 .temperature p{
@@ -215,7 +215,7 @@ color:white;
 
 .temperature p{
 	  font-size: 18px;
-       margin-left:10px;
+     margin-left:10px;
 }
 .div_vent{
 		  display: flex;
@@ -298,8 +298,11 @@ width:150px;
 	display :flex;
 	flex-direction:column;
 	  margin:20px;
+
+  
 	
 }
+   
 .first_Activity img{
    width: 300px;
   height: 300px;
@@ -307,9 +310,11 @@ width:150px;
   border-radius: 10px;
   margin:20px;
 
-  
-  
+
 }
+  
+  
+
 .first_Activity p{
 	margin:0px;
 color:#A7E399;
@@ -318,6 +323,7 @@ font-size:20px;
 font-style:bold;
 
 }
+
 
 
 .Activity_second{
@@ -497,3 +503,143 @@ margin-left:23px;
    font-size:30px;
 }
 
+  /*  CSS mobile   */
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  .header-content {
+    height: auto;
+    padding: 20px;
+  }
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+  }
+  #title_web {
+    font-size: 14px;
+    margin-top: 30px;
+  }
+  #time_activity {
+    font-size: 14px;
+    margin-top: 30px;
+  }
+  .naviger {
+    flex-direction: column;
+  }
+  .nav-link {
+    margin: 5px;
+    padding: 0px;
+  }
+  .list_image {
+    flex-direction: row;
+  }
+  #imag_list1 {
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
+  }
+  .hero {
+    padding: 20px;
+
+  }
+
+ .hero #myVideo{
+    width:100px;
+    height: 100px
+
+ }
+  .ÀPropos img {
+    width: 100%;
+    height: auto;
+  }
+  .presentation_plage img {
+    width:300px;
+    height: auto;
+  }
+    .presentation_plage P {
+    font-size: 14px;
+   }
+
+   .map iframe{
+    width:50%;
+   
+   }
+
+
+  .Meteo {
+    padding: 20px;
+  }
+  .global_div_temp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .temperature {
+    
+    margin-bottom: 20px;
+  }
+    
+  .div_vent {
+    margin-bottom: 20px;
+  }
+  .div_med {
+    margin-bottom: 20px;
+  }
+.principale_Activity{
+   display: flex;
+  flex-direction: row;
+
+  margin-bottom:10px;
+	border-bottom:5px solid #A7E399;
+
+}
+
+.first_Activity{
+	display :flex;
+	flex-direction:column;
+	  margin: 10px
+
+  
+	
+}
+   
+.first_Activity img{
+   width: 100px;
+  height: 100px;
+ 
+  border-radius: 10px;
+  margin:20px;
+
+
+}
+  
+  
+
+.first_Activity p{
+	margin:0px;
+color:#A7E399;
+text-align:center;
+font-size:20px;
+font-style:bold;
+
+}
+  .contact-form {
+    width: 90px;
+    padding: 20px;
+  }
+  .barre_menu p{
+font-size:14px; 
+
+}
+
+ #change_col{
+    font-size:20px; 
+}
+
+}
+
+
+    

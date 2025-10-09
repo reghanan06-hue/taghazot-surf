@@ -20,6 +20,8 @@ fetch(url)
     document.getElementById("vente_value").innerHTML = `Vent : ${wind} m/s`;
     document.getElementById("humidite_value").innerHTML = `Humidité : ${humidite}%`;
     document.getElementById("info_wether").innerHTML = `Les informations météo : ${description}`;
+ 
+ 
   })
   .catch(error => console.error("Erreur : ", error));
  
@@ -34,25 +36,34 @@ fetch(url)
 
 
  
-let nom = document.getElementById('first_name');
-let prenom = document.getElementById('last_name');
-let email = document.getElementById('my_email');
-let message = document.getElementById('story');
-
-
-//creer une fonction pour afficher que tous les D et envoyer
-
+//creer une fonction pour Envoyer les D quqnt usser click on bttn envoyer
 function Send_data(){
-  // test les champes vides !
-  if (nom.value != "" && email.value != "" && message.value != "" ) {
-    alert("Les informations envoyées !");
-// vider les champs aprés user clic sur envoyer
+
+var myname = nom.value;
+  // stock le nom  dans  VARIABLE myname
+var nom = document.getElementById('first_name');
+var myname = nom.value;
+// stock l'email dans v
+var email = document.getElementById('my_email');
+var myemail = email.value;  
+// stock le message dans a
+var message = document.getElementById('story');
+var my_msg = message.value; 
+
+
+  //console.log(myname);
+  // test les champes vides 
+  
+  if (myname != "" && myemail != ""  && my_msg != ""){
+ 
+ alert("Les informations envoyées !"); 
+// vider les champs aprés user clic sur envoye
     nom.value = "";
     email.value = "";
-    message.value = "";
-  } else{
+    message.value = ""
+  
+  }else{  
     alert(" remplir les champs vides !");
-  }
-}
+ }
 
-
+ }  
